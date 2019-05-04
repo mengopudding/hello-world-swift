@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7B2E842272EABB00D8D5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B2E832272EABB00D8D5B1 /* AppDelegate.swift */; };
+		3E7B2E862272EABB00D8D5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B2E852272EABB00D8D5B1 /* ViewController.swift */; };
+		3E7B2E892272EABB00D8D5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B2E872272EABB00D8D5B1 /* Main.storyboard */; };
+		3E7B2E8B2272EABD00D8D5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B2E8A2272EABD00D8D5B1 /* Assets.xcassets */; };
+		3E7B2E8E2272EABD00D8D5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B2E8C2272EABD00D8D5B1 /* LaunchScreen.storyboard */; };
+		3E7B2E992272EABD00D8D5B1 /* MengoPuddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B2E982272EABD00D8D5B1 /* MengoPuddingTests.swift */; };
+		3E7B2EA42272EABD00D8D5B1 /* MengoPuddingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B2EA32272EABD00D8D5B1 /* MengoPuddingUITests.swift */; };
+		3E7B2EB22272F30C00D8D5B1 /* asdf.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B2EB12272F30C00D8D5B1 /* asdf.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7B2E952272EABD00D8D5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7B2E782272EABB00D8D5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7B2E7F2272EABB00D8D5B1;
+			remoteInfo = MengoPudding;
+		};
+		3E7B2EA02272EABD00D8D5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7B2E782272EABB00D8D5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7B2E7F2272EABB00D8D5B1;
+			remoteInfo = MengoPudding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E7B2E802272EABB00D8D5B1 /* MengoPudding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengoPudding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7B2E832272EABB00D8D5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E7B2E852272EABB00D8D5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E7B2E882272EABB00D8D5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7B2E8A2272EABD00D8D5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7B2E8D2272EABD00D8D5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E7B2E8F2272EABD00D8D5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7B2E942272EABD00D8D5B1 /* MengoPuddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengoPuddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7B2E982272EABD00D8D5B1 /* MengoPuddingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MengoPuddingTests.swift; sourceTree = "<group>"; };
+		3E7B2E9A2272EABD00D8D5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7B2E9F2272EABD00D8D5B1 /* MengoPuddingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengoPuddingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7B2EA32272EABD00D8D5B1 /* MengoPuddingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MengoPuddingUITests.swift; sourceTree = "<group>"; };
+		3E7B2EA52272EABD00D8D5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7B2EB12272F30C00D8D5B1 /* asdf.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = asdf.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7B2E7D2272EABB00D8D5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7B2E912272EABD00D8D5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7B2E9C2272EABD00D8D5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7B2E772272EABB00D8D5B1 = {
+			isa = PBXGroup;
+			children = (
+				3E7B2E822272EABB00D8D5B1 /* MengoPudding */,
+				3E7B2E972272EABD00D8D5B1 /* MengoPuddingTests */,
+				3E7B2EA22272EABD00D8D5B1 /* MengoPuddingUITests */,
+				3E7B2E812272EABB00D8D5B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7B2E812272EABB00D8D5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E7B2E802272EABB00D8D5B1 /* MengoPudding.app */,
+				3E7B2E942272EABD00D8D5B1 /* MengoPuddingTests.xctest */,
+				3E7B2E9F2272EABD00D8D5B1 /* MengoPuddingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7B2E822272EABB00D8D5B1 /* MengoPudding */ = {
+			isa = PBXGroup;
+			children = (
+				3E7B2E832272EABB00D8D5B1 /* AppDelegate.swift */,
+				3E7B2E852272EABB00D8D5B1 /* ViewController.swift */,
+				3E7B2E872272EABB00D8D5B1 /* Main.storyboard */,
+				3E7B2E8A2272EABD00D8D5B1 /* Assets.xcassets */,
+				3E7B2E8C2272EABD00D8D5B1 /* LaunchScreen.storyboard */,
+				3E7B2E8F2272EABD00D8D5B1 /* Info.plist */,
+				3E7B2EB12272F30C00D8D5B1 /* asdf.xib */,
+			);
+			path = MengoPudding;
+			sourceTree = "<group>";
+		};
+		3E7B2E972272EABD00D8D5B1 /* MengoPuddingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7B2E982272EABD00D8D5B1 /* MengoPuddingTests.swift */,
+				3E7B2E9A2272EABD00D8D5B1 /* Info.plist */,
+			);
+			path = MengoPuddingTests;
+			sourceTree = "<group>";
+		};
+		3E7B2EA22272EABD00D8D5B1 /* MengoPuddingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7B2EA32272EABD00D8D5B1 /* MengoPuddingUITests.swift */,
+				3E7B2EA52272EABD00D8D5B1 /* Info.plist */,
+			);
+			path = MengoPuddingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7B2E7F2272EABB00D8D5B1 /* MengoPudding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7B2EA82272EABD00D8D5B1 /* Build configuration list for PBXNativeTarget "MengoPudding" */;
+			buildPhases = (
+				3E7B2E7C2272EABB00D8D5B1 /* Sources */,
+				3E7B2E7D2272EABB00D8D5B1 /* Frameworks */,
+				3E7B2E7E2272EABB00D8D5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MengoPudding;
+			productName = MengoPudding;
+			productReference = 3E7B2E802272EABB00D8D5B1 /* MengoPudding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E7B2E932272EABD00D8D5B1 /* MengoPuddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7B2EAB2272EABD00D8D5B1 /* Build configuration list for PBXNativeTarget "MengoPuddingTests" */;
+			buildPhases = (
+				3E7B2E902272EABD00D8D5B1 /* Sources */,
+				3E7B2E912272EABD00D8D5B1 /* Frameworks */,
+				3E7B2E922272EABD00D8D5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7B2E962272EABD00D8D5B1 /* PBXTargetDependency */,
+			);
+			name = MengoPuddingTests;
+			productName = MengoPuddingTests;
+			productReference = 3E7B2E942272EABD00D8D5B1 /* MengoPuddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E7B2E9E2272EABD00D8D5B1 /* MengoPuddingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7B2EAE2272EABD00D8D5B1 /* Build configuration list for PBXNativeTarget "MengoPuddingUITests" */;
+			buildPhases = (
+				3E7B2E9B2272EABD00D8D5B1 /* Sources */,
+				3E7B2E9C2272EABD00D8D5B1 /* Frameworks */,
+				3E7B2E9D2272EABD00D8D5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7B2EA12272EABD00D8D5B1 /* PBXTargetDependency */,
+			);
+			name = MengoPuddingUITests;
+			productName = MengoPuddingUITests;
+			productReference = 3E7B2E9F2272EABD00D8D5B1 /* MengoPuddingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7B2E782272EABB00D8D5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Meng Lim";
+				TargetAttributes = {
+					3E7B2E7F2272EABB00D8D5B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3E7B2E932272EABD00D8D5B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3E7B2E7F2272EABB00D8D5B1;
+					};
+					3E7B2E9E2272EABD00D8D5B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3E7B2E7F2272EABB00D8D5B1;
+					};
+				};
+			};
+			buildConfigurationList = 3E7B2E7B2272EABB00D8D5B1 /* Build configuration list for PBXProject "MengoPudding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E7B2E772272EABB00D8D5B1;
+			productRefGroup = 3E7B2E812272EABB00D8D5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E7B2E7F2272EABB00D8D5B1 /* MengoPudding */,
+				3E7B2E932272EABD00D8D5B1 /* MengoPuddingTests */,
+				3E7B2E9E2272EABD00D8D5B1 /* MengoPuddingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E7B2E7E2272EABB00D8D5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7B2E8E2272EABD00D8D5B1 /* LaunchScreen.storyboard in Resources */,
+				3E7B2E8B2272EABD00D8D5B1 /* Assets.xcassets in Resources */,
+				3E7B2E892272EABB00D8D5B1 /* Main.storyboard in Resources */,
+				3E7B2EB22272F30C00D8D5B1 /* asdf.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7B2E922272EABD00D8D5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7B2E9D2272EABD00D8D5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7B2E7C2272EABB00D8D5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7B2E862272EABB00D8D5B1 /* ViewController.swift in Sources */,
+				3E7B2E842272EABB00D8D5B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7B2E902272EABD00D8D5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7B2E992272EABD00D8D5B1 /* MengoPuddingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7B2E9B2272EABD00D8D5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7B2EA42272EABD00D8D5B1 /* MengoPuddingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7B2E962272EABD00D8D5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7B2E7F2272EABB00D8D5B1 /* MengoPudding */;
+			targetProxy = 3E7B2E952272EABD00D8D5B1 /* PBXContainerItemProxy */;
+		};
+		3E7B2EA12272EABD00D8D5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7B2E7F2272EABB00D8D5B1 /* MengoPudding */;
+			targetProxy = 3E7B2EA02272EABD00D8D5B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E7B2E872272EABB00D8D5B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7B2E882272EABB00D8D5B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E7B2E8C2272EABD00D8D5B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7B2E8D2272EABD00D8D5B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E7B2EA62272EABD00D8D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E7B2EA72272EABD00D8D5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E7B2EA92272EABD00D8D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengoPudding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengopudding.app.MengoPudding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E7B2EAA2272EABD00D8D5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengoPudding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengopudding.app.MengoPudding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E7B2EAC2272EABD00D8D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengoPuddingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengopudding.app.MengoPuddingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MengoPudding.app/MengoPudding";
+			};
+			name = Debug;
+		};
+		3E7B2EAD2272EABD00D8D5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengoPuddingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengopudding.app.MengoPuddingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MengoPudding.app/MengoPudding";
+			};
+			name = Release;
+		};
+		3E7B2EAF2272EABD00D8D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengoPuddingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengopudding.app.MengoPuddingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MengoPudding;
+			};
+			name = Debug;
+		};
+		3E7B2EB02272EABD00D8D5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengoPuddingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengopudding.app.MengoPuddingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MengoPudding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7B2E7B2272EABB00D8D5B1 /* Build configuration list for PBXProject "MengoPudding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7B2EA62272EABD00D8D5B1 /* Debug */,
+				3E7B2EA72272EABD00D8D5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7B2EA82272EABD00D8D5B1 /* Build configuration list for PBXNativeTarget "MengoPudding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7B2EA92272EABD00D8D5B1 /* Debug */,
+				3E7B2EAA2272EABD00D8D5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7B2EAB2272EABD00D8D5B1 /* Build configuration list for PBXNativeTarget "MengoPuddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7B2EAC2272EABD00D8D5B1 /* Debug */,
+				3E7B2EAD2272EABD00D8D5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7B2EAE2272EABD00D8D5B1 /* Build configuration list for PBXNativeTarget "MengoPuddingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7B2EAF2272EABD00D8D5B1 /* Debug */,
+				3E7B2EB02272EABD00D8D5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7B2E782272EABB00D8D5B1 /* Project object */;
+}

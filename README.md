@@ -1,0 +1,1 @@
+![screenshot](assets/images/simulator_screenshot.png)
